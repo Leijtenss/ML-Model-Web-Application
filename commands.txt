@@ -1,0 +1,21 @@
+docker build -t leijtenss/model_api .
+
+docker run -p 5000:5000 leijtenss/model_api
+
+docker push leijtenss/model_api
+
+
+# With docker instance
+docker run -p 5000:5000 leijtenss/model_api
+
+curl -X GET "http://0.0.0.0:5000/api" -H "Content-Type: application/json" --data '{"INDUS":"5.9", "RM":"4.7", "AGE":"80.5", "DIS":"3.7", "NOX":"0.7", "PTRATIO":"13.6"}'
+
+
+# With amazon =/docker instance
+curl -X GET "leijtenss-hacktid.eu-west-1.elasticbeanstalk.com/api" -H "Content-Type: application/json" --data '{"INDUS":"5.9", "RM":"4.7", "AGE":"80.5", "DIS":"3.7", "NOX":"0.7", "PTRATIO":"13.6"}'
+
+
+#UI Template
+https://towardsdatascience.com/create-a-complete-machine-learning-web-application-using-react-and-flask-859340bddb33
+
+localhost:3000
