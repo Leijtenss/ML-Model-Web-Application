@@ -1,9 +1,9 @@
 # ML-Model-Web-Application
-Create web app for ML model with Flask/Docker and publish via AWS Elastic Beanstalk.
+Create web app for ML model with Flask/Docker and publish via AWS Elastic Beanstalk. Basic approach was to take dataset with Boston House Prices, create a simpel (far from perfect) model, put it in a Docker container and make it available through AWS Elastic Beanstalk where you can put in values through an HTML-form and get instant predictions.
 <br>
 Can be accessed via: http://leijtenss-hacktid.eu-west-1.elasticbeanstalk.com/
 <br><br>
-Dataset: 
+Dataset: https://scikit-learn.org/stable/datasets/index.html#boston-dataset
 <br><br>
 Requirements:
 <br>
