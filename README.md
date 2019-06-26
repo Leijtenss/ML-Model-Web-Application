@@ -2,9 +2,9 @@
 Create web app for ML model with Flask/Docker and publish via AWS Elastic Beanstalk.
 <br>
 Can be accessed via: http://leijtenss-hacktid.eu-west-1.elasticbeanstalk.com/
-<br>
+<br><br>
 Dataset: 
-<br>
+<br><br>
 Requirements:
 <br>
 * Flask==1.0.2
