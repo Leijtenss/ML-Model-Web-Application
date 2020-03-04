@@ -1,6 +1,6 @@
 # ML-Model-Web-Application
 
-### OBS: took app from AWS, code is still usable for other purposes
+### OBS: took app down from AWS, code is still usable for other purposes
 
 The basic approach was to take the famous dataset with Boston House Prices, create a simpel (far from perfect) model, put it in a Docker container and make it available through AWS Elastic Beanstalk where you can put in values through an HTML-form and get instant predictions.
 <br><br>
